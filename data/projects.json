@@ -1,0 +1,76 @@
+[
+  {
+    "project_id": 1,
+    "project_name": "World Flags Hub",
+    "type": "Web App",
+    "project_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1200px-Flag_of_the_United_Nations.svg.png",
+    "tech_stack": [
+      "EJS",
+      "JavaScript",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "status": "Completed",
+    "deployment": "https://world-flags-hub.vercel.app/",
+    "time_period": "Feb - April 2024"
+  },
+  {
+    "project_id": 2,
+    "project_name": "Supermarket Product Locator",
+    "type": "Web App",
+    "project_image": "https://incontextsolutions.com/wp-content/uploads/2023/08/woman-in-front-of-shelf-scaled.jpg",
+    "tech_stack": ["EJS", "JavaScript", "Express.js", "MongoDB", "Node.js"],
+    "status": "Completed",
+    "deployment": "https://freshpro.vercel.app/",
+    "time_period": "Oct 2024"
+  },
+  {
+    "project_id": 3,
+    "project_name": "Seneca Church Event Management System",
+    "type": "Web App",
+    "project_image": "/church_event.png",
+    "tech_stack": [
+      "EJS",
+      "JavaScript",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+      "Tailwind CSS"
+    ],
+    "status": "Completed",
+    "deployment": "https://seneca-disciple.vercel.app/",
+    "time_period": "Dec 2024"
+  },
+  {
+    "project_id": 4,
+    "project_name": "Individual Portfolio (In Progress)",
+    "type": "Web App",
+    "project_image": "/portfolio.png",
+    "tech_stack": ["JavaScript", "React.js", "Next.js", "React Bootstrap"],
+    "time_period": "Jan 2025"
+  },
+  {
+    "project_id": 5,
+    "project_name": "Individual API Server Project (Planning)",
+    "type": "Web App",
+    "project_image": "https://tomaztsql.wordpress.com/wp-content/uploads/2021/08/restapi2.png",
+    "tech_stack": ["tech1", "tech2", "tech3"],
+    "time_period": "Jan 2025 (Estimate)"
+  },
+  {
+    "project_id": 6,
+    "project_name": "Library Management System (Planning)",
+    "type": "Web App",
+    "tech_stack": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Tailwind CSS"
+    ],
+    "time_period": "Feb 2025 (Estimate)"
+  }
+]

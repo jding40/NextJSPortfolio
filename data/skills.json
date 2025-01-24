@@ -1,0 +1,98 @@
+[
+  {
+    "skill_no": 1,
+    "skill_name": "JavaScript",
+    "type": "Web Development",
+    "logo_Url": "https://skillforge.com/wp-content/uploads/2020/10/javascript.png"
+  },
+  {
+    "skill_no": 2,
+    "skill_name": "TypeScript",
+    "type": "Web Development",
+    "logo_Url": "https://blog.teamtreehouse.com/wp-content/uploads/2015/05/87a5a0fdc86455c3f94b0b0eebfdb1b9_400x400.png"
+  },
+  {
+    "skill_no": 3,
+    "skill_name": "Node.js",
+    "type": "Web Development",
+    "logo_Url": "https://miro.medium.com/v2/resize:fit:800/1*bc9pmTiyKR0WNPka2w3e0Q.png"
+  },
+  {
+    "skill_no": 4,
+    "skill_name": "Express.js",
+    "type": "Web Development",
+    "logo_Url": "https://ih1.redbubble.net/image.438908244.6144/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg"
+  },
+  {
+    "skill_no": 5,
+    "skill_name": "EJS",
+    "type": "Web Development",
+    "logo_Url": "https://img.icons8.com/color/512/ejs.png"
+  },
+  {
+    "skill_no": 6,
+    "skill_name": "React.js",
+    "type": "Web Development",
+    "logo_Url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/768px-React_Logo_SVG.svg.png"
+  },
+  {
+    "skill_no": 7,
+    "skill_name": "Next.js",
+    "type": "Web Development",
+    "logo_Url": "https://soshace.com/wp-content/uploads/2019/10/Getting-Started-with-NextJS.jpg"
+  },
+  {
+    "skill_no": 8,
+    "skill_name": "MongoDB",
+    "type": "Web Development",
+    "logo_Url": "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png"
+  },
+  {
+    "skill_no": 9,
+    "skill_name": "PostgreSQL",
+    "type": "Web Development",
+    "logo_Url": "https://images.ctfassets.net/6yom6slo28h2/fJUJrqHAzWweaJZvNXgWS/446631a4e2f0cc825292c982c12e173a/postgresql.jpg?w=500&h=324&fl=progressive&q=100&fm=jpg"
+  },
+  {
+    "skill_no": 10,
+    "skill_name": "Oracle SQL",
+    "type": "Web Development",
+    "logo_Url": "https://d15cw65ipctsrr.cloudfront.net/6c/4d7d0569a3403187a746eca4115ebb/OracleSQL800x800.png"
+  },
+  {
+    "skill_no": 11,
+    "skill_name": "Bootstrap",
+    "type": "Web Development",
+    "logo_Url": "https://ncarb.github.io/bootstrap/assets/img/bootstrap-stack.png"
+  },
+  {
+    "skill_no": 12,
+    "skill_name": "React Bootstrap",
+    "type": "Web Development",
+    "logo_Url": "https://react-bootstrap.netlify.app/img/logo.svg"
+  },
+  {
+    "skill_no": 13,
+    "skill_name": "Tailwind CSS",
+    "type": "Web Development",
+    "logo_Url": "/tailwind.png"
+  },
+  {
+    "skill_no": 14,
+    "skill_name": "git-hub",
+    "type": "Web Development",
+    "logo_Url": "/github.svg"
+  },
+  {
+    "skill_no": 15,
+    "skill_name": "C++",
+    "type": "Other IT Skills",
+    "logo_Url": "/C++.svg"
+  },
+  {
+    "skill_no": 16,
+    "skill_name": "Python",
+    "type": "Other IT Skills",
+    "logo_Url": "/python.png"
+  }
+]

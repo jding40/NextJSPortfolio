@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "semester": "1st",
+    "courseCode": "IPC 144",
+    "courseName": "Introduction to Programming Using C",
+    "grade": "B+"
+  },
+  {
+    "ID": 2,
+    "semester": "1st",
+    "courseCode": "APS 145",
+    "courseName": "Applied Problem Solving",
+    "grade": "B+"
+  },
+  {
+    "ID": 3,
+    "semester": "1st",
+    "courseCode": "CPR 101",
+    "courseName": "Computer Principles for Programmers",
+    "grade": "B+"
+  },
+  {
+    "ID": 4,
+    "semester": "1st",
+    "courseCode": "ULI 101",
+    "courseName": "Introduction to UNIX/Linux and the Internet",
+    "grade": "A"
+  },
+  {
+    "ID": 5,
+    "semester": "1st",
+    "courseCode": "COM 111",
+    "courseName": "Communicating Across Contexts (Enriched)",
+    "grade": "A"
+  },
+  {
+    "ID": 6,
+    "semester": "2nd",
+    "courseCode": "OOP 244",
+    "courseName": "Introduction to Object Oriented Programming",
+    "grade": "A"
+  },
+  {
+    "ID": 7,
+    "semester": "2nd",
+    "courseCode": "WEB 222",
+    "courseName": "Web Programming Principles",
+    "grade": "A+"
+  },
+  {
+    "ID": 8,
+    "semester": "2nd",
+    "courseCode": "DBS 211",
+    "courseName": "Introduction to Database Systems",
+    "grade": "A+"
+  },
+  {
+    "ID": 9,
+    "semester": "2nd",
+    "courseCode": "SFT 221",
+    "courseName": "Software Testing",
+    "grade": "A"
+  },
+  {
+    "ID": 10,
+    "semester": "2nd",
+    "courseCode": "NAT 109",
+    "courseName": "Planets, Stars and Galaxies: Exploring Space",
+    "grade": "A"
+  },
+  {
+    "ID": 11,
+    "semester": "3rd",
+    "courseCode": "OOP 345",
+    "courseName": "Object-Oriented Software Development Using C++",
+    "grade": "A"
+  },
+  {
+    "ID": 12,
+    "semester": "3rd",
+    "courseCode": "WEB 322",
+    "courseName": "Web Programming Tools and Frameworks",
+    "grade": "A"
+  },
+  {
+    "ID": 13,
+    "semester": "3rd",
+    "courseCode": "DBS 311",
+    "courseName": "Advanced Database Services",
+    "grade": "A+"
+  },
+  {
+    "ID": 14,
+    "semester": "3rd",
+    "courseCode": "SYD 366",
+    "courseName": "Software Analysis and Design - I",
+    "grade": "A"
+  },
+  {
+    "ID": 15,
+    "semester": "3rd",
+    "courseCode": "EAC 411",
+    "courseName": "Language of Media",
+    "grade": "A"
+  },
+  {
+    "ID": 16,
+    "semester": "4th",
+    "courseCode": "DSA 456",
+    "courseName": "Data Structures and Algorithms",
+    "grade": "A"
+  },
+  {
+    "ID": 17,
+    "semester": "4th",
+    "courseCode": "PMC 444",
+    "courseName": "IT Project Management Fundamentals Tools and Techniques",
+    "grade": "A+"
+  },
+  {
+    "ID": 18,
+    "semester": "4th",
+    "courseCode": "MST 300",
+    "courseName": "Introduction to Microsoft Cloud Technologies",
+    "grade": "A+"
+  },
+  {
+    "ID": 19,
+    "semester": "4th",
+    "courseCode": "EAC 594",
+    "courseName": "Business Communication for the Digital Workplace",
+    "grade": "A+"
+  },
+  {
+    "ID": 20,
+    "semester": "4th",
+    "courseCode": "NAT 160",
+    "courseName": "Natural Science: Nutrition",
+    "grade": "A+"
+  }
+]
