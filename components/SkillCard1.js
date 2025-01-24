@@ -1,7 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./SkillCard.css";
+import "./skillCard.css";
 import projects from "@/data/projects.json";
 
 const SkillCard = ({ skill }) => {
