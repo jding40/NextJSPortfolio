@@ -1,6 +1,11 @@
 {
   "version": 2,
-  "builds": "next build",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
