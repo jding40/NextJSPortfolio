@@ -1,0 +1,2 @@
+# NextJSPortfolio
+My indivudual portfolio
