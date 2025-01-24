@@ -51,8 +51,8 @@ function SkillsPage() {
 
   return (
     <>
-      <h1 className="my-5">Web Development Skills</h1>
       <Container fluid="md">
+        <h1 className="my-5">Web Development Skills</h1>
         <Row>
           {visibleWebSkills.map((skill, index) => {
             return (
@@ -70,8 +70,8 @@ function SkillsPage() {
         </Row>
       </Container>
 
-      <h1 className="my-5">Other IT Skills</h1>
       <Container fluid="md">
+        <h1 className="my-5">Other IT Skills</h1>
         <Row>
           {visibleOtherSkills.map((skill, index) => {
             return (
