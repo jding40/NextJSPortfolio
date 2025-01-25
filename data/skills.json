@@ -85,20 +85,20 @@
   },
   {
     "skill_no": 15,
+    "skill_name": "SASS",
+    "type": "Web Development",
+    "logo_Url": "/sass.png"
+  },
+  {
+    "skill_no": 16,
     "skill_name": "C++",
     "type": "Other IT Skills",
     "logo_Url": "/C++.svg"
   },
   {
-    "skill_no": 16,
+    "skill_no": 17,
     "skill_name": "Python",
     "type": "Other IT Skills",
     "logo_Url": "/python.png"
-  },
-  {
-    "skill_no": 17,
-    "skill_name": "SASS",
-    "type": "Web Development",
-    "logo_Url": "/sass.png"
   }
 ]
