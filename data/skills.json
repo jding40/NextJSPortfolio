@@ -94,5 +94,11 @@
     "skill_name": "Python",
     "type": "Other IT Skills",
     "logo_Url": "/python.png"
+  },
+  {
+    "skill_no": 17,
+    "skill_name": "SASS",
+    "type": "Web Development",
+    "logo_Url": "/sass.png"
   }
 ]
