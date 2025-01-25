@@ -14,9 +14,9 @@ function NavBar() {
         <Navbar.Brand href="/honours">Grades & Honours</Navbar.Brand>
 
         <Nav className="me-auto">
-          <Nav.Link href="#home">About</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="/skills">Skills</Nav.Link>
+          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/honours">Grades & Honours</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
