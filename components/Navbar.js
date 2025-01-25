@@ -9,9 +9,9 @@ function NavBar() {
     <Navbar bg="primary" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="/">Home</Navbar.Brand>
-        <Navbar.Brand href="/skills">Skills</Navbar.Brand>
+        {/* <Navbar.Brand href="/skills">Skills</Navbar.Brand>
         <Navbar.Brand href="/projects">Projects</Navbar.Brand>
-        <Navbar.Brand href="/honours">Grades & Honours</Navbar.Brand>
+        <Navbar.Brand href="/honours">Grades & Honours</Navbar.Brand> */}
 
         <Nav className="me-auto">
           <Nav.Link href="/skills">Skills</Nav.Link>
