@@ -59,7 +59,7 @@ function SkillsPage() {
               <Col
                 xs={12}
                 md={6}
-                lg={4}
+                lg={3}
                 xl={2}
                 key={skill.skill_no}
                 ref={(el) => (skillRefs.current[index] = el)}

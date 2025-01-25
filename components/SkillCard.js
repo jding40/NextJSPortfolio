@@ -27,7 +27,7 @@ const SkillCard = ({ skill }) => {
       button.innerHTML === "Related Projects" ? "Back" : "Related Projects";
   };
   return (
-    <Card className="m-3 p-2 bg-dots" ref={skillCard}>
+    <Card className="mx-0 my-2 px-1 py-1 bg-dots" ref={skillCard}>
       <div
         className="w-100 ratio ratio-1x1"
         id={`skill_${skill.skill_no}_logo`}
@@ -36,7 +36,11 @@ const SkillCard = ({ skill }) => {
         <Card.Img variant="top" src={skill.logo_Url} alt={skill.skill_name} />
       </div>
       <Card.Body>
-        <Card.Title id={`skill_${skill.skill_no}_title`} ref={skillTitleRef}>
+        <Card.Title
+          className="fs-6"
+          id={`skill_${skill.skill_no}_title`}
+          ref={skillTitleRef}
+        >
           <strong>{skill.skill_name}</strong>
         </Card.Title>
         <Card.Text
@@ -44,12 +48,12 @@ const SkillCard = ({ skill }) => {
           id={`skill_${skill.skill_no}_related_projects`}
           ref={skillRelatedProjectsRef}
         >
-          <strong>Related Projects</strong>
+          {/* <strong>Related Projects</strong> */}
           {relatedProjects.map((project) => (
             <li key={project.project_id}>{project.project_name}</li>
           ))}
         </Card.Text>
-        <Button variant="primary" onClick={clickHandler}>
+        <Button variant="primary" onClick={clickHandler} className="fs-10 px-1">
           Related Projects
         </Button>
       </Card.Body>
