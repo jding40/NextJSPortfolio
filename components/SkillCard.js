@@ -35,7 +35,7 @@ const SkillCard = ({ skill }) => {
       </div>
       <Card.Body>
         <Card.Title id={`skill_${skill.skill_no}_title`} ref={skillTitleRef}>
-          {skill.skill_name}
+          <strong>{skill.skill_name}</strong>
         </Card.Title>
         <Card.Text
           className="hidden"

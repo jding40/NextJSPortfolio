@@ -57,9 +57,10 @@ function SkillsPage() {
           {visibleWebSkills.map((skill, index) => {
             return (
               <Col
-                xs={6}
-                md={4}
-                lg={3}
+                xs={12}
+                md={6}
+                lg={4}
+                xl={3}
                 key={skill.skill_no}
                 ref={(el) => (skillRefs.current[index] = el)}
               >
@@ -76,9 +77,10 @@ function SkillsPage() {
           {visibleOtherSkills.map((skill, index) => {
             return (
               <Col
-                xs={6}
-                md={4}
-                lg={3}
+                xs={12}
+                md={6}
+                lg={4}
+                xl={3}
                 key={skill.skill_no}
                 ref={(el) => (skillRefs.current[index] = el)}
               >
