@@ -60,7 +60,7 @@ function SkillsPage() {
                 xs={12}
                 md={6}
                 lg={4}
-                xl={3}
+                xl={2}
                 key={skill.skill_no}
                 ref={(el) => (skillRefs.current[index] = el)}
               >
