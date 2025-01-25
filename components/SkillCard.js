@@ -7,6 +7,7 @@ import projects from "@/data/projects.json";
 import { useRef } from "react";
 
 const SkillCard = ({ skill }) => {
+  const skillCard = useRef(null);
   const skillLogoRef = useRef(null);
   const skillTitleRef = useRef(null);
   const skillRelatedProjectsRef = useRef(null);
@@ -16,6 +17,7 @@ const SkillCard = ({ skill }) => {
   );
   const clickHandler = (e) => {
     const button = e.target;
+    if (skillCard.current) skillCard.current.classList.toggle("bg-dots");
     if (skillLogoRef.current) skillLogoRef.current.classList.toggle("hidden");
     if (skillTitleRef.current) skillTitleRef.current.classList.toggle("hidden");
     if (skillRelatedProjectsRef.current)
@@ -25,7 +27,7 @@ const SkillCard = ({ skill }) => {
       button.innerHTML === "Related Projects" ? "Back" : "Related Projects";
   };
   return (
-    <Card className="m-3 p-2 ">
+    <Card className="m-3 p-2 bg-dots" ref={skillCard}>
       <div
         className="w-100 ratio ratio-1x1"
         id={`skill_${skill.skill_no}_logo`}
@@ -38,7 +40,7 @@ const SkillCard = ({ skill }) => {
           <strong>{skill.skill_name}</strong>
         </Card.Title>
         <Card.Text
-          className="hidden"
+          className="hidden bg-white"
           id={`skill_${skill.skill_no}_related_projects`}
           ref={skillRelatedProjectsRef}
         >

@@ -21,7 +21,7 @@
     "skill_no": 4,
     "skill_name": "Express.js",
     "type": "Web Development",
-    "logo_Url": "https://ih1.redbubble.net/image.438908244.6144/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.u2.jpg"
+    "logo_Url": "/express.png"
   },
   {
     "skill_no": 5,
@@ -39,7 +39,7 @@
     "skill_no": 7,
     "skill_name": "Next.js",
     "type": "Web Development",
-    "logo_Url": "https://soshace.com/wp-content/uploads/2019/10/Getting-Started-with-NextJS.jpg"
+    "logo_Url": "/Next-JS.png"
   },
   {
     "skill_no": 8,
@@ -51,13 +51,13 @@
     "skill_no": 9,
     "skill_name": "PostgreSQL",
     "type": "Web Development",
-    "logo_Url": "https://images.ctfassets.net/6yom6slo28h2/fJUJrqHAzWweaJZvNXgWS/446631a4e2f0cc825292c982c12e173a/postgresql.jpg?w=500&h=324&fl=progressive&q=100&fm=jpg"
+    "logo_Url": "/postgresql.webp"
   },
   {
     "skill_no": 10,
     "skill_name": "Oracle SQL",
     "type": "Web Development",
-    "logo_Url": "https://d15cw65ipctsrr.cloudfront.net/6c/4d7d0569a3403187a746eca4115ebb/OracleSQL800x800.png"
+    "logo_Url": "/OracleSQL.png"
   },
   {
     "skill_no": 11,
