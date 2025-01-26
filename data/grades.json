@@ -4,6 +4,7 @@
     "semester": "1st",
     "courseCode": "IPC 144",
     "courseName": "Introduction to Programming Using C",
+    "keyCourse": true,
     "grade": "B+"
   },
   {
@@ -25,6 +26,7 @@
     "semester": "1st",
     "courseCode": "ULI 101",
     "courseName": "Introduction to UNIX/Linux and the Internet",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -39,6 +41,7 @@
     "semester": "2nd",
     "courseCode": "OOP 244",
     "courseName": "Introduction to Object Oriented Programming",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -46,6 +49,7 @@
     "semester": "2nd",
     "courseCode": "WEB 222",
     "courseName": "Web Programming Principles",
+    "keyCourse": true,
     "grade": "A+"
   },
   {
@@ -53,6 +57,7 @@
     "semester": "2nd",
     "courseCode": "DBS 211",
     "courseName": "Introduction to Database Systems",
+    "keyCourse": true,
     "grade": "A+"
   },
   {
@@ -60,6 +65,7 @@
     "semester": "2nd",
     "courseCode": "SFT 221",
     "courseName": "Software Testing",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -74,6 +80,7 @@
     "semester": "3rd",
     "courseCode": "OOP 345",
     "courseName": "Object-Oriented Software Development Using C++",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -81,6 +88,7 @@
     "semester": "3rd",
     "courseCode": "WEB 322",
     "courseName": "Web Programming Tools and Frameworks",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -88,6 +96,7 @@
     "semester": "3rd",
     "courseCode": "DBS 311",
     "courseName": "Advanced Database Services",
+    "keyCourse": true,
     "grade": "A+"
   },
   {
@@ -109,6 +118,7 @@
     "semester": "4th",
     "courseCode": "DSA 456",
     "courseName": "Data Structures and Algorithms",
+    "keyCourse": true,
     "grade": "A"
   },
   {
@@ -123,6 +133,7 @@
     "semester": "4th",
     "courseCode": "MST 300",
     "courseName": "Introduction to Microsoft Cloud Technologies",
+    "keyCourse": true,
     "grade": "A+"
   },
   {

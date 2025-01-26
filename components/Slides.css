@@ -1,0 +1,10 @@
+.carousel-control-prev-icon {
+  color: blue;
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+}
+
+/* 调整后按钮的颜色 */
+.carousel-control-next-icon {
+  color: blue;
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(180deg);
+}

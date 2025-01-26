@@ -1,6 +1,12 @@
 import { Geist, Geist_Mono } from "next/font/google";
+//import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+
+if (typeof window !== "undefined") {
+  import("bootstrap/dist/js/bootstrap.bundle.min.js");
+}
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

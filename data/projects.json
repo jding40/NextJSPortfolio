@@ -58,13 +58,14 @@
     "project_name": "Individual API Server Project (Planning)",
     "type": "Web App",
     "project_image": "https://tomaztsql.wordpress.com/wp-content/uploads/2021/08/restapi2.png",
-    "tech_stack": ["tech1", "tech2", "tech3"],
+    "tech_stack": ["MongoDB", "", "tech3"],
     "time_period": "Jan 2025 (Estimate)"
   },
   {
     "project_id": 6,
     "project_name": "Library Management System (Planning)",
     "type": "Web App",
+    "project_image": "/library_system.png",
     "tech_stack": [
       "TypeScript",
       "React",
