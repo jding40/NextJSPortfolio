@@ -6,6 +6,7 @@
     "project_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_the_United_Nations.svg/1200px-Flag_of_the_United_Nations.svg.png",
     "tech_stack": [
       "EJS",
+      "Tailwind",
       "JavaScript",
       "Express.js",
       "MongoDB",
@@ -14,7 +15,8 @@
     ],
     "status": "Completed",
     "deployment": "https://world-flags-hub.vercel.app/",
-    "time_period": "Feb - April 2024"
+    "time_period": "Feb - April 2024",
+    "description": []
   },
   {
     "project_id": 2,
@@ -37,7 +39,7 @@
       "Express.js",
       "MongoDB",
       "Node.js",
-      "Tailwind CSS"
+      "Tailwind"
     ],
     "status": "Completed",
     "deployment": "https://seneca-disciple.vercel.app/",
@@ -51,14 +53,19 @@
     "tech_stack": ["JavaScript", "React.js", "Next.js", "React Bootstrap"],
     "status": "In Progress",
     "deployment": "https://coca-portfolio.vercel.app/",
-    "time_period": "Jan 2025"
+    "time_period": "Jan 2025",
+    "description": [
+      "This project is a personal portfolio website that showcases my skills, projects, and academic achievements.",
+      "It is built using React.js and Next.js, and styled with React Bootstrap.",
+      "A useEqualHeight hook was designed to ensure that all project cards and their corresponding child elements are of equal height."
+    ]
   },
   {
     "project_id": 5,
     "project_name": "Individual API Server Project (Planning)",
     "type": "Web App",
     "project_image": "https://tomaztsql.wordpress.com/wp-content/uploads/2021/08/restapi2.png",
-    "tech_stack": ["MongoDB", "", "tech3"],
+    "tech_stack": ["MongoDB", "Next.js", "Tailwind"],
     "time_period": "Jan 2025 (Estimate)"
   },
   {
@@ -67,12 +74,13 @@
     "type": "Web App",
     "project_image": "/library_system.png",
     "tech_stack": [
+      "Tailwind",
       "TypeScript",
       "React",
-      "Node.js",
+      "Next.js",
       "MongoDB",
       "PostgreSQL",
-      "Tailwind CSS"
+      "Node.js"
     ],
     "time_period": "Feb 2025 (Estimate)"
   }
