@@ -1,7 +1,7 @@
 "use client";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import "./SkillCard.css";
+import "./skillCard.css";
 import projects from "@/data/projects.json";
 import { useRef } from "react";
 
