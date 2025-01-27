@@ -2,6 +2,9 @@
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import "./Slides.css";
+import honourList_2023Fall from "@/public/Presidents_Honour_List_2023 Fall.png";
+import honourList_2024Winter from "../public/Presidents_Honour_List_2024 Winter.png";
+import honourList_2024Summer from "../public/President's_Honour_List_2024 Summer.png";
 
 function Slides() {
   const next_icon = useRef(null);
@@ -46,11 +49,13 @@ function Slides() {
       <div className="carousel-inner">
         <div className="carousel-item active">
           <Image
-            src="/Presidents_Honour_List_2023_Fall.png"
+            src={honourList_2023Fall}
             className="d-block w-100"
             alt="Presidents Honour List 2023 Fall."
             width={800}
             height={700}
+            priority
+            objectFit="cover"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5></h5>
@@ -59,11 +64,12 @@ function Slides() {
         </div>
         <div className="carousel-item">
           <Image
-            src="/Presidents_Honour_List_2024 Winter.png"
-            className="d-block w-100"
+            src={honourList_2024Winter}
+            className="d-block w-100 "
             alt="Presidents Honour List 2024 Winter"
             width={800}
             height={700}
+            objectFit="cover"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5></h5>
@@ -72,11 +78,12 @@ function Slides() {
         </div>
         <div className="carousel-item">
           <Image
-            src="/President's_Honour_List_2024 Summer.png"
+            src={honourList_2024Summer}
             className="d-block w-100"
             alt="Presidents Honour List 2024 Summer"
             width={800}
             height={700}
+            objectFit="cover"
           />
           <div className="carousel-caption d-none d-md-block">
             <h5></h5>

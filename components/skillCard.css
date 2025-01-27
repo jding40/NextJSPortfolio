@@ -7,3 +7,7 @@
   background-image: radial-gradient(blue 1px, transparent 1px);
   background-size: 15px 15px;
 }
+
+.card {
+  height: 95%;
+}

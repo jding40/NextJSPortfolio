@@ -5,8 +5,8 @@ import Slides from "@/components/Slides.js";
 
 function GradesAndHonoursPage() {
   return (
-    <Container className="honour_page">
-      <Slides className="mx-5" />
+    <Container className="honour_page container-xl">
+      <Slides />
       <Table striped>
         <thead>
           <tr className="bg-primary text-white">

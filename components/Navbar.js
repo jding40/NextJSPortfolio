@@ -2,12 +2,11 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function NavBar() {
   return (
-    <Navbar bg="primary" data-bs-theme="dark">
-      <Container>
+    <Container className="container-xl">
+      <Navbar bg="primary" data-bs-theme="dark" className="px-2 ">
         <Navbar.Brand href="/">Home</Navbar.Brand>
         {/* <Navbar.Brand href="/skills">Skills</Navbar.Brand>
         <Navbar.Brand href="/projects">Projects</Navbar.Brand>
@@ -18,8 +17,8 @@ function NavBar() {
           <Nav.Link href="/projects">Projects</Nav.Link>
           <Nav.Link href="/honours">Grades & Honours</Nav.Link>
         </Nav>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 }
 

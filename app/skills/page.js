@@ -50,47 +50,47 @@ function SkillsPage() {
   }, [visibleOtherSkills]);
 
   return (
-    <>
-      <Container fluid="md">
+    <Container className="container-xl skillPage">
+      {visibleWebSkills.length > 0 && (
         <h1 className="my-5">Web Development Skills</h1>
-        <Row>
-          {visibleWebSkills.map((skill, index) => {
-            return (
-              <Col
-                xs={12}
-                md={6}
-                lg={3}
-                xl={2}
-                key={skill.skill_no}
-                ref={(el) => (skillRefs.current[index] = el)}
-              >
-                <SkillCard skill={skill} />
-              </Col>
-            );
-          })}
-        </Row>
-      </Container>
+      )}
+      <Row>
+        {visibleWebSkills.map((skill, index) => {
+          return (
+            <Col
+              xs={12}
+              md={6}
+              lg={3}
+              xl={2}
+              key={skill.skill_no}
+              ref={(el) => (skillRefs.current[index] = el)}
+            >
+              <SkillCard skill={skill} />
+            </Col>
+          );
+        })}
+      </Row>
 
-      <Container fluid="md">
+      {visibleOtherSkills.length > 0 && (
         <h1 className="my-5">Other IT Skills</h1>
-        <Row>
-          {visibleOtherSkills.map((skill, index) => {
-            return (
-              <Col
-                xs={12}
-                md={6}
-                lg={4}
-                xl={2}
-                key={skill.skill_no}
-                ref={(el) => (skillRefs.current[index] = el)}
-              >
-                <SkillCard skill={skill} />
-              </Col>
-            );
-          })}
-        </Row>
-      </Container>
-    </>
+      )}
+      <Row>
+        {visibleOtherSkills.map((skill, index) => {
+          return (
+            <Col
+              xs={12}
+              md={6}
+              lg={3}
+              xl={2}
+              key={skill.skill_no}
+              ref={(el) => (skillRefs.current[index] = el)}
+            >
+              <SkillCard skill={skill} />
+            </Col>
+          );
+        })}
+      </Row>
+    </Container>
   );
 }
 

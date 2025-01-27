@@ -1,7 +1,6 @@
 "use client";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./ProjectCard.css";
 import useEqualHeight from "@/hooks/useEqualHeight";
 import SkillLabel from "./SkillLabel";

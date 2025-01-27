@@ -14,35 +14,32 @@ export default function ProjectsPage() {
     .sort((a, b) => b.project_id - a.project_id);
 
   return (
-    <>
-      <Container fluid="md">
-        {sortedWebappProjects.length > 0 && (
-          <h1 className="my-5">Web App Projects</h1>
-        )}
-        <Row className="align-items-stretch">
-          {sortedWebappProjects.map((project, index) => {
-            return (
-              <Col md={12} lg={6} key={project.project_id}>
-                <ProjectCard project={project} />
-              </Col>
-            );
-          })}
-        </Row>
-      </Container>
-      <Container fluid="md">
-        {sortedOtherProjects.length > 0 && (
-          <h1 className="my-5">Other IT Projects</h1>
-        )}
-        <Row className="align-items-stretch">
-          {sortedOtherProjects.map((project, index) => {
-            return (
-              <Col md={12} lg={6} key={project.project_id}>
-                <ProjectCard project={project} />
-              </Col>
-            );
-          })}
-        </Row>
-      </Container>
-    </>
+    <Container className="container-xl">
+      {sortedWebappProjects.length > 0 && (
+        <h1 className="my-5">Web App Projects</h1>
+      )}
+      <Row className="align-items-stretch">
+        {sortedWebappProjects.map((project, index) => {
+          return (
+            <Col md={12} lg={6} key={project.project_id}>
+              <ProjectCard project={project} />
+            </Col>
+          );
+        })}
+      </Row>
+
+      {sortedOtherProjects.length > 0 && (
+        <h1 className="my-5">Other IT Projects</h1>
+      )}
+      <Row className="align-items-stretch">
+        {sortedOtherProjects.map((project, index) => {
+          return (
+            <Col md={12} lg={6} key={project.project_id}>
+              <ProjectCard project={project} />
+            </Col>
+          );
+        })}
+      </Row>
+    </Container>
   );
 }

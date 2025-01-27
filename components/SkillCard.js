@@ -1,8 +1,7 @@
 "use client";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./skillCard.css";
+import "./SkillCard.css";
 import projects from "@/data/projects.json";
 import { useRef } from "react";
 
@@ -26,8 +25,12 @@ const SkillCard = ({ skill }) => {
     button.innerHTML =
       button.innerHTML === "Related Projects" ? "Back" : "Related Projects";
   };
+
+  // useEqualHeight(".skillCard");
+  // useEqualHeight(".card");
+
   return (
-    <Card className="mx-0 my-2 px-1 py-1 bg-dots" ref={skillCard}>
+    <Card className="my-2 px-1 py-1 bg-dots skillCard" ref={skillCard}>
       <div
         className="w-100 ratio ratio-1x1"
         id={`skill_${skill.skill_no}_logo`}
@@ -49,9 +52,15 @@ const SkillCard = ({ skill }) => {
           ref={skillRelatedProjectsRef}
         >
           {/* <strong>Related Projects</strong> */}
-          {relatedProjects.map((project) => (
-            <li key={project.project_id}>{project.project_name}</li>
-          ))}
+          {relatedProjects.map((project) =>
+            project.deployment ? (
+              <li key={project.project_id}>
+                <a href={project.deployment}>{project.project_name}</a>
+              </li>
+            ) : (
+              <li key={project.project_id}>{project.project_name}</li>
+            )
+          )}
         </Card.Text>
         <Button variant="primary" onClick={clickHandler} className="fs-10 px-1">
           Related Projects

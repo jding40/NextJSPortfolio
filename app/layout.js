@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Navbar from "../components/Navbar";
 
-if (typeof window !== "undefined") {
-  import("bootstrap/dist/js/bootstrap.bundle.min.js");
-}
+// if (typeof window !== "undefined") {
+//   import("bootstrap/dist/js/bootstrap.bundle.min.js");
+// }
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,8 +25,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} m-4`}>
+    <html lang="en" className="displayScrollBar">
+      <body className={`${geistSans.variable} ${geistMono.variable} my-4`}>
         <Navbar />
         {children}
       </body>

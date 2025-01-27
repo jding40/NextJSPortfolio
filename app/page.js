@@ -1,95 +1,80 @@
+import { Container, Row, Col, Button } from "react-bootstrap";
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <Container className="container-xl my-5 border border-2 border-info rounded-3 shadow-lg px-4">
+      <Row className="align-items-center">
+        {/* 左侧内容 (占 3/5) */}
+        <Col md={7} className="p-4">
+          <h1 className="display-4 fw-bold text-primary my-3">
+            Jianzhong Ding
+          </h1>
+          <p className="fs-4 text-muted">
+            I&apos;m a passionate{" "}
+            <strong className="text-success">full-stack web developer,</strong>
+            <br />
+            graduated from{" "}
+            <strong className="text-success">Seneca Polytechnic</strong>, <br />
+            based in <strong className="text-success">Toronto</strong>.
+          </p>
+          <p className="text-secondary mt-3">
+            With expertise in building modern, responsive web applications and a
+            commitment to clean code and great design.
+          </p>
+          <div className="d-flex align-items-center my-4">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-4"
+            >
+              <Image
+                src="/github-brands.svg"
+                alt="GitHub"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a
+              href="https://linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="me-4"
+            >
+              <Image
+                src="/linkedin.svg"
+                alt="LinkedIn"
+                width={40}
+                height={40}
+              />
+            </a>
+            <a
+              href="https://indeed.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/indeed-2.svg" alt="Indeed" width={40} height={40} />
+            </a>
+          </div>
+          <div className="d-flex align-items-center mt-4">
+            <Button href="/resume.pdf" download={true}>
+              Download Resume
+            </Button>
+          </div>
+        </Col>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        {/* 右侧内容 (占 2/5) */}
+        <Col md={5} className="text-center">
           <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
+            src="/Coca Ding-2.png"
+            alt="Coca"
+            width={300}
+            height={400}
+            className="rounded-circle shadow-lg my-5"
           />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
