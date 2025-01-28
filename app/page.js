@@ -73,7 +73,7 @@ export default function Home() {
             alt="Coca"
             width={300}
             height={400}
-            className="rounded-circle shadow-lg my-5 py-5"
+            className="rounded-circle shadow-lg my-5"
           />
         </Col>
       </Row>
