@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <Container className="container-xl my-5 border border-2 border-info rounded-3 shadow-lg px-4">
+      <h1 className="pt-5">Welcome!</h1>
       <Row className="align-items-center">
         {/* 左侧内容 (占 3/5) */}
         <Col md={7} className="p-4">
@@ -18,7 +19,7 @@ export default function Home() {
             <strong className="text-success">Seneca Polytechnic</strong>, <br />
             based in <strong className="text-success">Toronto</strong>.
           </p>
-          <p className="text-secondary mt-3">
+          <p className="text-secondary my-5">
             With expertise in building modern, responsive web applications and a
             commitment to clean code and great design.
           </p>
@@ -58,7 +59,7 @@ export default function Home() {
               />
             </a>
           </div>
-          <div className="d-flex align-items-center mt-4">
+          <div className="d-flex align-items-center my-5">
             <Button href="/resume.pdf" download={true}>
               Download Resume
             </Button>
@@ -72,7 +73,7 @@ export default function Home() {
             alt="Coca"
             width={300}
             height={400}
-            className="rounded-circle shadow-lg my-5"
+            className="rounded-circle shadow-lg my-5 py-5"
           />
         </Col>
       </Row>
