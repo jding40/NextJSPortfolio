@@ -1,3 +1,6 @@
 .displayScrollBar {
   overflow-y: scroll;
 }
+h1 {
+  font-family: "Barriecito", "Noto Sans SC", sans-serif;
+}

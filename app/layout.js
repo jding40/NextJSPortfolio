@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import FooterComponent from "../components/FooterComponent";
 
 // if (typeof window !== "undefined") {
 //   import("bootstrap/dist/js/bootstrap.bundle.min.js");
@@ -26,9 +27,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="displayScrollBar">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} my-4`}>
         <Navbar />
         {children}
+        <FooterComponent />
       </body>
     </html>
   );

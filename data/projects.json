@@ -16,7 +16,20 @@
     "status": "Completed",
     "deployment": "https://world-flags-hub.vercel.app/",
     "time_period": "Feb - April 2024",
-    "description": []
+    "desc": [],
+    "libraries": [
+      "@tailwindcss/typography",
+      "bcryptjs",
+      "client-sessions",
+      "daisyui",
+      "dotenv",
+      "ejs",
+      "express",
+      "mongoose",
+      "pg",
+      "pg-hstore",
+      "sequelize"
+    ]
   },
   {
     "project_id": 2,
@@ -26,7 +39,22 @@
     "tech_stack": ["EJS", "JavaScript", "Express.js", "MongoDB", "Node.js"],
     "status": "Completed",
     "deployment": "https://freshpro.vercel.app/",
-    "time_period": "Oct 2024"
+    "time_period": "Oct 2024",
+    "desc": [],
+    "libraries": [
+      "@tailwindcss/typography",
+      "bcryptjs",
+      "client-sessions",
+      "daisyui",
+      "dotenv",
+      "ejs",
+      "express",
+      "mongoose",
+      "opencc-js",
+      "pg",
+      "pg-hstore",
+      "sequelize"
+    ]
   },
   {
     "project_id": 3,
@@ -43,7 +71,19 @@
     ],
     "status": "Completed",
     "deployment": "https://seneca-disciple.vercel.app/",
-    "time_period": "Dec 2024"
+    "time_period": "Dec 2024",
+    "desc": [],
+    "libraries": [
+      "auth-service",
+      "bcryptjs",
+      "client-sessions",
+      "date-fns",
+      "date-fns-tz",
+      "dotenv",
+      "ejs",
+      "express",
+      "mongoose"
+    ]
   },
   {
     "project_id": 4,
@@ -54,10 +94,18 @@
     "status": "In Progress",
     "deployment": "https://coca-portfolio.vercel.app/",
     "time_period": "Jan 2025",
-    "description": [
+    "desc": [
       "This project is a personal portfolio website that showcases my skills, projects, and academic achievements.",
       "It is built using React.js and Next.js, and styled with React Bootstrap.",
       "A useEqualHeight hook was designed to ensure that all project cards and their corresponding child elements are of equal height."
+    ],
+    "libraries": [
+      "bootstrap",
+      "hash-it",
+      "next",
+      "react",
+      "react-bootstrap",
+      "react-dom"
     ]
   },
   {
@@ -66,7 +114,9 @@
     "type": "Web App",
     "project_image": "https://tomaztsql.wordpress.com/wp-content/uploads/2021/08/restapi2.png",
     "tech_stack": ["MongoDB", "Next.js", "Tailwind"],
-    "time_period": "Jan 2025 (Estimate)"
+    "time_period": "Jan 2025 (Estimate)",
+    "desc": [],
+    "libraries": []
   },
   {
     "project_id": 6,
@@ -82,6 +132,8 @@
       "PostgreSQL",
       "Node.js"
     ],
-    "time_period": "Feb 2025 (Estimate)"
+    "time_period": "Feb 2025 (Estimate)",
+    "desc": [],
+    "libraries": []
   }
 ]

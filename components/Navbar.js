@@ -6,7 +6,11 @@ import Navbar from "react-bootstrap/Navbar";
 function NavBar() {
   return (
     <Container className="container-xl">
-      <Navbar bg="primary" data-bs-theme="dark" className="px-2 ">
+      <Navbar
+        bg="primary"
+        data-bs-theme="dark"
+        className="px-2 rounded-bottom-2"
+      >
         <Navbar.Brand href="/">Home</Navbar.Brand>
         {/* <Navbar.Brand href="/skills">Skills</Navbar.Brand>
         <Navbar.Brand href="/projects">Projects</Navbar.Brand>

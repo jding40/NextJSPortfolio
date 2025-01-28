@@ -24,7 +24,7 @@ export default function Home() {
           </p>
           <div className="d-flex align-items-center my-4">
             <a
-              href="https://github.com/"
+              href="https://github.com/jding40"
               target="_blank"
               rel="noopener noreferrer"
               className="me-4"
@@ -37,7 +37,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/coca4017/"
               target="_blank"
               rel="noopener noreferrer"
               className="me-4"

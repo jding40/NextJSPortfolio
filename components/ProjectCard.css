@@ -7,3 +7,7 @@
   overflow: hidden; /* 超出内容隐藏 */
   text-overflow: ellipsis; /* 添加省略号 */
 }
+
+.hidden {
+  display: none;
+}
