@@ -38,6 +38,13 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap"
           rel="stylesheet"
         />
+
+        {/* second font - for the open to work element*/}
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Barriecito&family=Sixtyfour+Convergence&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} my-4`}>
         <Navbar />

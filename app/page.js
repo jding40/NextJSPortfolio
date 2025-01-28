@@ -7,22 +7,28 @@ export default function Home() {
       <h1 className="pt-5">Welcome!</h1>
       <Row className="align-items-center">
         {/* 左侧内容 (占 3/5) */}
-        <Col md={7} className="p-4">
-          <h1 className="display-4 fw-bold text-primary my-3">
-            Jianzhong Ding
+        <Col md={7} className="ps-4">
+          <h1 className="display-4 fw-bold my-3">
+            I&apos;m <strong className="text-primary">Jianzhong Ding</strong>,
           </h1>
           <p className="fs-4 text-muted">
-            I&apos;m a passionate{" "}
+            a passionate{" "}
             <strong className="text-success">full-stack web developer,</strong>
             <br />
             graduated from{" "}
             <strong className="text-success">Seneca Polytechnic</strong>, <br />
-            based in <strong className="text-success">Toronto</strong>.
+            based in <strong className="text-success">Toronto</strong>,<br />
+            <br />
+            with expertise in building{" "}
+            <strong className="text-success">
+              modern, responsive web applications
+            </strong>{" "}
+            <br />
+            and a commitment to{" "}
+            <strong className="text-success">clean code </strong>and{" "}
+            <strong className="text-success">great design</strong>.
           </p>
-          <p className="text-secondary my-5">
-            With expertise in building modern, responsive web applications and a
-            commitment to clean code and great design.
-          </p>
+
           <div className="d-flex align-items-center my-4">
             <a
               href="https://github.com/jding40"
@@ -68,12 +74,15 @@ export default function Home() {
 
         {/* 右侧内容 (占 2/5) */}
         <Col md={5} className="text-center">
+          <h2 className="mb-5 text-danger sixtyfour-convergence-coca">
+            Open To Work~
+          </h2>
           <Image
             src="/Coca Ding-2.png"
             alt="Coca"
             width={300}
             height={400}
-            className="rounded-circle shadow-lg my-5"
+            className="rounded-circle shadow-lg mb-5"
           />
         </Col>
       </Row>
