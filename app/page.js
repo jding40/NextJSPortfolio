@@ -37,10 +37,18 @@ export default function Home() {
               />
             </a>
             <a
+              className="invisible me-4"
+              href="https://indeed.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/indeed-2.svg" alt="Indeed" width={40} height={40} />
+            </a>
+            <a
               href="https://www.linkedin.com/in/coca4017/"
               target="_blank"
               rel="noopener noreferrer"
-              className="me-4"
+              className="me"
             >
               <Image
                 src="/linkedin.svg"
@@ -48,13 +56,6 @@ export default function Home() {
                 width={40}
                 height={40}
               />
-            </a>
-            <a
-              href="https://indeed.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image src="/indeed-2.svg" alt="Indeed" width={40} height={40} />
             </a>
           </div>
           <div className="d-flex align-items-center mt-4">

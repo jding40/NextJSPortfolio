@@ -34,7 +34,7 @@ export default function ProjectCard({ project }) {
       )}
 
       <Card.Body className="h-100 d-flex flex-column justify-content-between">
-        <div>
+        <div className="mb-auto">
           {showDetails && (
             <Card.Text className="lh-lg project-main">
               <strong>Details: </strong>
@@ -50,7 +50,7 @@ export default function ProjectCard({ project }) {
             </Card.Text>
           )}
         </div>
-        <div className="mt-auto">
+        <div>
           <Card.Title className="project-title">
             <strong>{project.project_name}</strong>
           </Card.Title>
@@ -62,7 +62,11 @@ export default function ProjectCard({ project }) {
             ))}
           </Card.Text>
           <div>
-            <Button variant="primary" className="me-2" onClick={onClickHandler}>
+            <Button
+              variant="primary"
+              className={`me-2 px-${showDetails ? 2.5 : 1}`}
+              onClick={onClickHandler}
+            >
               {showDetails ? "Back" : "Details"}
             </Button>
             {project.deployment && (
