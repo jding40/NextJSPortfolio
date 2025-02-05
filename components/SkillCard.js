@@ -38,20 +38,15 @@ const SkillCard = ({ skill }) => {
       >
         <Card.Img variant="top" src={skill.logo_Url} alt={skill.skill_name} />
       </div>
-      <Card.Body>
-        <Card.Title
-          className="fs-6"
-          id={`skill_${skill.skill_no}_title`}
-          ref={skillTitleRef}
-        >
-          <strong>{skill.skill_name}</strong>
-        </Card.Title>
+      <Card.Body
+        ref={cardBody}
+        className="d-flex flex-column justify-content-end "
+      >
         <Card.Text
-          className="hidden bg-white"
+          className="hidden  flex-auto "
           id={`skill_${skill.skill_no}_related_projects`}
           ref={skillRelatedProjectsRef}
         >
-          {/* <strong>Related Projects</strong> */}
           {relatedProjects.map((project) =>
             project.deployment ? (
               <li key={project.project_id}>
@@ -62,7 +57,18 @@ const SkillCard = ({ skill }) => {
             )
           )}
         </Card.Text>
-        <Button variant="primary" onClick={clickHandler} className="fs-10 px-1">
+        <Card.Title
+          className="fs-6 flex-0"
+          id={`skill_${skill.skill_no}_title`}
+          ref={skillTitleRef}
+        >
+          <strong>{skill.skill_name}</strong>
+        </Card.Title>
+        <Button
+          variant="primary"
+          onClick={clickHandler}
+          className="fs-10 px-1 flex-0"
+        >
           Related Projects
         </Button>
       </Card.Body>
