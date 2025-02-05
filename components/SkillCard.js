@@ -9,6 +9,7 @@ const SkillCard = ({ skill }) => {
   const skillCard = useRef(null);
   const skillLogoRef = useRef(null);
   const skillTitleRef = useRef(null);
+  const cardBody = useRef(null);
   const skillRelatedProjectsRef = useRef(null);
   //console.log(typeof projects);
   const relatedProjects = projects.filter((project) =>
@@ -21,6 +22,10 @@ const SkillCard = ({ skill }) => {
     if (skillTitleRef.current) skillTitleRef.current.classList.toggle("hidden");
     if (skillRelatedProjectsRef.current)
       skillRelatedProjectsRef.current.classList.toggle("hidden");
+    if (cardBody.current) {
+      cardBody.current.classList.toggle("justify-content-end");
+      cardBody.current.classList.toggle("justify-content-between");
+    }
 
     button.innerHTML =
       button.innerHTML === "Related Projects" ? "Back" : "Related Projects";
