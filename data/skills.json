@@ -37,66 +37,72 @@
   },
   {
     "skill_no": 7,
+    "skill_name": "Redux.js",
+    "type": "Web Development",
+    "logo_Url": "/redux.webp"
+  },
+  {
+    "skill_no": 8,
     "skill_name": "Next.js",
     "type": "Web Development",
     "logo_Url": "/Next-JS.png"
   },
   {
-    "skill_no": 8,
+    "skill_no": 9,
     "skill_name": "MongoDB",
     "type": "Web Development",
     "logo_Url": "https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png"
   },
   {
-    "skill_no": 9,
+    "skill_no": 10,
     "skill_name": "PostgreSQL",
     "type": "Web Development",
     "logo_Url": "/postgresql.webp"
   },
   {
-    "skill_no": 10,
+    "skill_no": 11,
     "skill_name": "Oracle SQL",
     "type": "Web Development",
     "logo_Url": "/OracleSQL.png"
   },
   {
-    "skill_no": 11,
+    "skill_no": 12,
     "skill_name": "Bootstrap",
     "type": "Web Development",
     "logo_Url": "https://ncarb.github.io/bootstrap/assets/img/bootstrap-stack.png"
   },
   {
-    "skill_no": 12,
+    "skill_no": 13,
     "skill_name": "React Bootstrap",
     "type": "Web Development",
     "logo_Url": "https://react-bootstrap.netlify.app/img/logo.svg"
   },
   {
-    "skill_no": 13,
+    "skill_no": 14,
     "skill_name": "Tailwind",
     "type": "Web Development",
     "logo_Url": "/tailwind.png"
   },
   {
-    "skill_no": 14,
+    "skill_no": 15,
     "skill_name": "git-hub",
     "type": "Web Development",
     "logo_Url": "/github.svg"
   },
   {
-    "skill_no": 15,
+    "skill_no": 16,
     "skill_name": "SASS",
     "type": "Web Development",
     "logo_Url": "/sass.png"
   },
   {
-    "skill_no": 16,
+    "skill_no": 17,
     "skill_name": "C++",
     "type": "Other IT Skills",
     "logo_Url": "/C++.svg"
   },
   {
-    "skill_no": 17,
+    "skill_no": 18,
     "skill_name": "Python",
     "type": "Other IT Skills",
     "logo_Url": "/python.png"
