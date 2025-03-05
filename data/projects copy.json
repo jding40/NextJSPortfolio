@@ -107,5 +107,33 @@
       "react-bootstrap",
       "react-dom"
     ]
+  },
+  {
+    "project_id": 5,
+    "project_name": "Individual API Server Project (Planning)",
+    "type": "Web App",
+    "project_image": "https://tomaztsql.wordpress.com/wp-content/uploads/2021/08/restapi2.png",
+    "tech_stack": ["MongoDB", "Next.js", "Tailwind"],
+    "time_period": "Feb 2025 (Estimate)",
+    "desc": [],
+    "libraries": []
+  },
+  {
+    "project_id": 6,
+    "project_name": "Library Management System (Planning)",
+    "type": "Web App",
+    "project_image": "/library_system.png",
+    "tech_stack": [
+      "Tailwind",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "time_period": "Feb 2025 (Estimate)",
+    "desc": [],
+    "libraries": []
   }
 ]
