@@ -38,7 +38,7 @@
     "project_image": "https://incontextsolutions.com/wp-content/uploads/2023/08/woman-in-front-of-shelf-scaled.jpg",
     "tech_stack": ["EJS", "JavaScript", "Express.js", "MongoDB", "Node.js"],
     "status": "Completed",
-    "deployment": "https://freshpro.vercel.app/",
+    "deployment": "https://x-mall.vercel.app/",
     "time_period": "Oct 2024",
     "desc": [],
     "libraries": [
