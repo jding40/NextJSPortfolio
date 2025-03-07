@@ -135,5 +135,28 @@
     "time_period": "Feb 2025 (Estimate)",
     "desc": [],
     "libraries": []
+  },
+  {
+    "project_id": 7,
+    "project_name": "Daily Ledger",
+    "type": "Web App",
+    "project_image": "/Ledger.webp",
+    "tech_stack": ["JavaScript", "React.js", "Redux.js", "Tailwind"],
+    "status": "Completed",
+    "deployment": "https://react-bill.vercel.app/",
+    "time_period": "Feb 2025",
+    "desc": [
+      "DailyLedger is a personal finance management application designed to help users track their daily expenses and income.",
+      "This project is built using React.js for the frontend, Redux for state management, and React Router for implementing nested routes.",
+      "The application features a clean and intuitive user interface, allowing users to easily add, edit, and delete financial records.",
+      "By working on this project, I have demonstrated my proficiency in React, Redux, and the implementation of nested routes, showcasing my ability to build complex and scalable web applications."
+    ],
+    "libraries": [
+      "react",
+      "react-redux",
+      "@reduxjs/toolkit",
+      "react-router-dom",
+      "classnames"
+    ]
   }
 ]
