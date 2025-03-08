@@ -22,7 +22,7 @@ export default function ProjectsPage() {
         {sortedWebappProjects.map((project, index) => {
           return (
             <Col md={12} lg={6} key={project.project_id}>
-              <ProjectCard project={project} />
+              <ProjectCard project={project} className="project" />
             </Col>
           );
         })}

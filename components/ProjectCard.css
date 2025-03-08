@@ -2,6 +2,13 @@
   height: 95%;
 }
 
+.project-card:hover {
+  position: relative;
+  bottom: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
 .project-title {
   white-space: nowrap; /* 禁止换行 */
   overflow: hidden; /* 超出内容隐藏 */
