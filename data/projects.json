@@ -37,7 +37,14 @@
     "project_name": "Supermarket Product Locator",
     "type": "Web App",
     "project_image": "https://incontextsolutions.com/wp-content/uploads/2023/08/woman-in-front-of-shelf-scaled.jpg",
-    "tech_stack": ["EJS", "JavaScript", "Express.js", "MongoDB", "Node.js"],
+    "tech_stack": [
+      "EJS",
+      "JavaScript",
+      "Express.js",
+      "MongoDB",
+      "Node.js",
+      "Tailwind"
+    ],
     "status": "Completed",
     "deployment": "https://freshpro.vercel.app/",
     "time_period": "Oct 2024",
