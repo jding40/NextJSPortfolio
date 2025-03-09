@@ -21,6 +21,18 @@
   transition: all 0.4s ease;
 }
 
+.nav-link.active {
+  color: #ffdd57;
+  text-shadow: 0 0 10px rgba(255, 221, 87, 0.8);
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #ffdd57;
+}
+.active:hover {
+  border-bottom: 0px;
+}
+
 /* 悬停效果：背景颜色变化 */
 .nav:hover::before {
   content: "";
