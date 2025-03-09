@@ -13,6 +13,7 @@ function SkillsPage() {
   const skillRefs = useRef([]);
 
   useEffect(() => {
+    skills.sort((a, b) => a.skill_no - b.skill_no);
     let index = 0;
     const interval = setInterval(() => {
       if (index < skills.length) {
