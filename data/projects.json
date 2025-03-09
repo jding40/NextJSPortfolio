@@ -120,7 +120,7 @@
     "desc": [
       "DailyLedger is a personal finance management application designed to help users track their daily expenses and income.",
       "This project is built using React.js for the frontend, Redux for state management, and React Router for implementing nested routes.",
-      "The application features a clean and intuitive user interface, allowing users to easily add, edit, and delete financial records.",
+      "The application features a clean and intuitive user interface, allowing users to easily add and delete financial records.",
       "By working on this project, I have demonstrated my proficiency in React, Redux, and the implementation of nested routes, showcasing my ability to build complex and scalable web applications."
     ],
     "libraries": [
