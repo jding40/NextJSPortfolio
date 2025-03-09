@@ -98,7 +98,13 @@
     "project_name": "Individual Portfolio",
     "type": "Web App",
     "project_image": "/portfolio.png",
-    "tech_stack": ["JavaScript", "React.js", "Next.js", "React Bootstrap"],
+    "tech_stack": [
+      "JavaScript",
+      "React.js",
+      "Next.js",
+      "React Bootstrap",
+      "Bootstrap"
+    ],
     "status": "In Progress",
     "deployment": "https://coca-portfolio.vercel.app/",
     "time_period": "Jan 2025",

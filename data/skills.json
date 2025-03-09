@@ -1,12 +1,12 @@
 [
   {
-    "skill_no": 1,
+    "skill_no": 6,
     "skill_name": "JavaScript",
     "type": "Web Development",
     "logo_Url": "https://skillforge.com/wp-content/uploads/2020/10/javascript.png"
   },
   {
-    "skill_no": 2,
+    "skill_no": 7,
     "skill_name": "TypeScript",
     "type": "Web Development",
     "logo_Url": "https://blog.teamtreehouse.com/wp-content/uploads/2015/05/87a5a0fdc86455c3f94b0b0eebfdb1b9_400x400.png"
@@ -30,13 +30,13 @@
     "logo_Url": "https://img.icons8.com/color/512/ejs.png"
   },
   {
-    "skill_no": 6,
+    "skill_no": 1,
     "skill_name": "React.js",
     "type": "Web Development",
     "logo_Url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/768px-React_Logo_SVG.svg.png"
   },
   {
-    "skill_no": 7,
+    "skill_no": 2,
     "skill_name": "Redux.js",
     "type": "Web Development",
     "logo_Url": "/redux.webp"
