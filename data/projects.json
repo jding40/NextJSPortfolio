@@ -78,6 +78,7 @@
     ],
     "status": "Completed",
     "deployment": "https://seneca-disciple.vercel.app/",
+    "sourceCode": "https://github.com/jding40/SenecaChurchEventManagementSystem",
     "time_period": "Dec 2024",
     "desc": [],
     "libraries": [

@@ -71,7 +71,7 @@ export default function ProjectCard({ project }) {
             </Button>
             {project.deployment && (
               <a href={project.deployment} target="_blank">
-                <Button className="mx-2" variant="primary">
+                <Button className="me-2" variant="primary">
                   Deployment
                 </Button>
               </a>
