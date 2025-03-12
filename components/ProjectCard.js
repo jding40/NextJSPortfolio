@@ -71,7 +71,14 @@ export default function ProjectCard({ project }) {
             </Button>
             {project.deployment && (
               <a href={project.deployment} target="_blank">
-                <Button variant="primary">Deployment</Button>
+                <Button className="mx-2" variant="primary">
+                  Deployment
+                </Button>
+              </a>
+            )}
+            {project.sourceCode && (
+              <a href={project.sourceCode} target="_blank">
+                <Button variant="primary">Source Code</Button>
               </a>
             )}
           </div>

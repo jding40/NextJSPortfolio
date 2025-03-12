@@ -106,6 +106,7 @@
     ],
     "status": "In Progress",
     "deployment": "https://coca-portfolio.vercel.app/",
+    "sourceCode": "https://github.com/jding40/NextJSPortfolio",
     "time_period": "Jan 2025",
     "desc": [
       "This project is a personal portfolio website that showcases my skills, projects, and academic achievements.",
@@ -129,6 +130,7 @@
     "tech_stack": ["JavaScript", "React.js", "Redux.js", "Tailwind"],
     "status": "Completed",
     "deployment": "https://react-bill.vercel.app/",
+    "sourceCode": "https://github.com/jding40/react_bill",
     "time_period": "Feb 2025",
     "desc": [
       "DailyLedger is a personal finance management application designed to help users track their daily expenses and income.",
