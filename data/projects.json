@@ -90,7 +90,8 @@
       "dotenv",
       "ejs",
       "express",
-      "mongoose"
+      "mongoose",
+      "joi"
     ]
   },
   {
