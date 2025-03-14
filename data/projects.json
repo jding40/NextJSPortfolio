@@ -15,6 +15,7 @@
     ],
     "status": "Completed",
     "deployment": "https://world-flags-hub.vercel.app/",
+    "sourceCode": "https://github.com/jding40/WorldFlagsHub",
     "time_period": "Feb - April 2024",
     "desc": [],
     "libraries": [
