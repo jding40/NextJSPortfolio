@@ -13,7 +13,9 @@ export default function Home() {
           </h1>
           <p className="fs-4 text-muted">
             a passionate{" "}
-            <strong className="text-success">full-stack web developer,</strong>
+            <strong className="text-success">
+              MERN full-stack web developer,
+            </strong>
             <br />
             graduated from{" "}
             <strong className="text-success">Seneca Polytechnic</strong>, <br />
