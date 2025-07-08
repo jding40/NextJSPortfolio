@@ -1,5 +1,11 @@
 [
   {
+    "skill_no": 5,
+    "skill_name": "Java",
+    "type": "Web Development",
+    "logo_Url": "/java.png"
+  },
+  {
     "skill_no": 10,
     "skill_name": "Spring Boot",
     "type": "Web Development",
