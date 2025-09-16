@@ -179,6 +179,7 @@
     "tech_stack": ["Express", "MongoDB", "TypeScript"],
     "status": "In Progress",
     "sourceCode": "https://github.com/jding40/seth-library-backend.git",
+    "deployment": "https://seth-library-backend.vercel.app",
     "time_period": "Sep 2025",
     "desc": [
       "This is my first TypeScript web app, designed for our pastor for his books management, with key features as following\n",
@@ -203,9 +204,10 @@
     "project_name": "Individual Library FrontEnd",
     "type": "Web App",
     "project_image": "/library.jpg",
-    "tech_stack": ["Express", "MongoDB", "TypeScript"],
+    "tech_stack": ["Tailwind", "React", "TypeScript"],
     "status": "In Progress",
     "sourceCode": "https://github.com/jding40/seth-library-frontend.git",
+    "deployment": "https://seth-library-frontend.vercel.app/",
     "time_period": "Sep 2025",
     "desc": [
       "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\nOriginally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\nThis project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."

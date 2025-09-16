@@ -21,7 +21,7 @@ export default function ProjectCard({ project }) {
   };
 
   return (
-    <Card className="px-2 mb-4 project-card">
+    <Card className="px-2 mb-4 project-card position-relative">
       {!showDetails && (
         <div className="w-100 ratio ratio-16x9 mb-3 project-main">
           <Card.Img
@@ -50,7 +50,10 @@ export default function ProjectCard({ project }) {
             </Card.Text>
           )}
         </div>
-        <div>
+        <div className="position-relative">
+          {project.status === "In Progress" && (
+            <span className="status-badge">In Progress</span>
+          )}
           <Card.Title className="project-title">
             <strong>{project.project_name}</strong>
           </Card.Title>
