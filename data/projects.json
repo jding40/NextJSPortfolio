@@ -111,6 +111,7 @@
     "deployment": "https://coca-portfolio.vercel.app/",
     "sourceCode": "https://github.com/jding40/NextJSPortfolio.git",
     "time_period": "Jan 2025",
+    "introduction": "",
     "desc": [
       "This project is a personal portfolio website that showcases my skills, projects, and academic achievements.",
       "It is built using React.js and Next.js, and styled with React Bootstrap.",
@@ -135,6 +136,7 @@
     "deployment": "https://react-bill.vercel.app/",
     "sourceCode": "https://github.com/jding40/react_bill.git",
     "time_period": "Feb 2025",
+    "introduction": "",
     "desc": [
       "DailyLedger is a personal finance management application designed to help users track their daily expenses and income.",
       "This project is built using React.js for the frontend, Redux for state management, and React Router for implementing nested routes.",
@@ -158,6 +160,7 @@
     "status": "In Progress",
     "sourceCode": "https://github.com/jding40/jding40-coinda-take-out.git",
     "time_period": "Aug 2025",
+    "introduction": "",
     "desc": [
       "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\n",
       "Originally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\n",
@@ -183,13 +186,13 @@
     "sourceCode": "https://github.com/jding40/seth-library-backend.git",
     "deployment": "https://seth-library-backend.vercel.app",
     "time_period": "Sep 2025",
+    "introduction": "This is my first TypeScript web app, designed for our pastor for his books management, with key features as following:",
     "desc": [
-      "This is my first TypeScript web app, designed for our pastor for his books management, with key features as following\n",
-      "- Built RESTful APIs for book, user, and borrow management with a clean layered architecture (routes → controllers → models).",
-      "- Implemented JWT-based authentication and role-based authorization (admin vs. member).",
-      "- Designed and optimized MongoDB/Mongoose data models for scalable book and borrowing records.",
-      "- Developed middleware for authentication, error handling, and logging; configured CORS for cross-origin frontend access.",
-      "- Deployed backend independently from frontend (React on Vercel), ensuring reliable API integration and scalability."
+      "Built RESTful APIs for book, user, and borrow management with a clean layered architecture (routes → controllers → models).",
+      "Implemented JWT-based authentication and role-based authorization (admin vs. member).",
+      "Designed and optimized MongoDB/Mongoose data models for scalable book and borrowing records.",
+      "Developed middleware for authentication, error handling, and logging; configured CORS for cross-origin frontend access.",
+      "Deployed backend independently from frontend (React on Vercel), ensuring reliable API integration and scalability."
     ],
     "libraries": [
       "mongoose",
@@ -212,9 +215,8 @@
     "sourceCode": "https://github.com/jding40/seth-library-frontend.git",
     "deployment": "https://seth-library-frontend.vercel.app/",
     "time_period": "Sep 2025",
-    "desc": [
-      "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\nOriginally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\nThis project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."
-    ],
+    "introduction": "",
+    "desc": [],
     "libraries": [
       "typescript",
       "tailwindcss",
