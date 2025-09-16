@@ -15,7 +15,7 @@
     ],
     "status": "Completed",
     "deployment": "https://world-flags-hub.vercel.app/",
-    "sourceCode": "https://github.com/jding40/WorldFlagsHub",
+    "sourceCode": "https://github.com/jding40/WorldFlagsHub.git",
     "time_period": "Feb - April 2024",
     "desc": [],
     "libraries": [
@@ -79,7 +79,7 @@
     ],
     "status": "Completed",
     "deployment": "https://seneca-disciple.vercel.app/",
-    "sourceCode": "https://github.com/jding40/SenecaChurchEventManagementSystem",
+    "sourceCode": "https://github.com/jding40/SenecaChurchEventManagementSystem.git",
     "time_period": "Dec 2024",
     "desc": [],
     "libraries": [
@@ -107,9 +107,9 @@
       "React Bootstrap",
       "Bootstrap"
     ],
-    "status": "In Progress",
+    "status": "Completed",
     "deployment": "https://coca-portfolio.vercel.app/",
-    "sourceCode": "https://github.com/jding40/NextJSPortfolio",
+    "sourceCode": "https://github.com/jding40/NextJSPortfolio.git",
     "time_period": "Jan 2025",
     "desc": [
       "This project is a personal portfolio website that showcases my skills, projects, and academic achievements.",
@@ -133,7 +133,7 @@
     "tech_stack": ["JavaScript", "React.js", "Redux.js", "Tailwind"],
     "status": "Completed",
     "deployment": "https://react-bill.vercel.app/",
-    "sourceCode": "https://github.com/jding40/react_bill",
+    "sourceCode": "https://github.com/jding40/react_bill.git",
     "time_period": "Feb 2025",
     "desc": [
       "DailyLedger is a personal finance management application designed to help users track their daily expenses and income.",
@@ -147,6 +147,78 @@
       "@reduxjs/toolkit",
       "react-router-dom",
       "classnames"
+    ]
+  },
+  {
+    "project_id": 6,
+    "project_name": "Coinda Take Out",
+    "type": "Web App",
+    "project_image": "/coinda-take-out.png",
+    "tech_stack": ["Java", "Spring Boot", "Redis", "MySQL", "MyBatis"],
+    "status": "In Progress",
+    "sourceCode": "https://github.com/jding40/jding40-coinda-take-out.git",
+    "time_period": "Aug 2025",
+    "desc": [
+      "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\nOriginally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\nThis project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."
+    ],
+    "libraries": [
+      "jjwt",
+      "dom4j",
+      "azure-storage-blob",
+      "httpclient5",
+      "spring-boot-starter-websocket",
+      "spring-boot-starter-data-redis",
+      "spring-boot-starter-aop"
+    ]
+  },
+  {
+    "project_id": 7,
+    "project_name": "Individual Library Backend",
+    "type": "Web App",
+    "project_image": "/library.png",
+    "tech_stack": ["Express", "MongoDB", "TypeScript"],
+    "status": "In Progress",
+    "sourceCode": "https://github.com/jding40/seth-library-backend.git",
+    "time_period": "Sep 2025",
+    "desc": [
+      "This is my first TypeScript web app, designed for our pastor for his books management, with key features as following\n",
+      "- Built RESTful APIs for book, user, and borrow management with a clean layered architecture (routes → controllers → models).",
+      "- Implemented JWT-based authentication and role-based authorization (admin vs. member).",
+      "- Designed and optimized MongoDB/Mongoose data models for scalable book and borrowing records.",
+      "- Developed middleware for authentication, error handling, and logging; configured CORS for cross-origin frontend access.",
+      "- Deployed backend independently from frontend (React on Vercel), ensuring reliable API integration and scalability."
+    ],
+    "libraries": [
+      "mongoose",
+      "typescript",
+      "jsonwebtoken",
+      "bcryptjs",
+      "dotenv",
+      "cors",
+      "ts-node"
+    ]
+  },
+  {
+    "project_id": 8,
+    "project_name": "Individual Library FrontEnd",
+    "type": "Web App",
+    "project_image": "/library.png",
+    "tech_stack": ["Express", "MongoDB", "TypeScript"],
+    "status": "In Progress",
+    "sourceCode": "https://github.com/jding40/seth-library-frontend.git",
+    "time_period": "Sep 2025",
+    "desc": [
+      "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\nOriginally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\nThis project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."
+    ],
+    "libraries": [
+      "typescript",
+      "tailwindcss",
+      "axios",
+      "jwt-decode",
+      "react",
+      "react-dom",
+      "react-router-dom",
+      "vite"
     ]
   }
 ]

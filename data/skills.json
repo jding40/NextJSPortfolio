@@ -6,10 +6,22 @@
     "logo_Url": "/Java2.png"
   },
   {
+    "skill_no": 6,
+    "skill_name": "Maven",
+    "type": "Web Development",
+    "logo_Url": "/maven.png"
+  },
+  {
     "skill_no": 7,
     "skill_name": "MySQL",
     "type": "Web Development",
     "logo_Url": "/mysql.png"
+  },
+  {
+    "skill_no": 8,
+    "skill_name": "Redis",
+    "type": "Web Development",
+    "logo_Url": "/redis2.png"
   },
   {
     "skill_no": 10,
