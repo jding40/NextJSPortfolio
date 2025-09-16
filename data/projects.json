@@ -215,8 +215,12 @@
     "sourceCode": "https://github.com/jding40/seth-library-frontend.git",
     "deployment": "https://seth-library-frontend.vercel.app/",
     "time_period": "Sep 2025",
-    "introduction": "",
-    "desc": [],
+    "introduction": "The frontend interacts with the backend APIs through an Axios wrapper that centralizes request configuration, including authentication via JWT tokens. Key features include:",
+    "desc": [
+      "The frontend of this project was built with React (TypeScript) using Vite as the build tool for fast development and optimized production builds.",
+      "Adaptive navigation bar that shows or hides management options based on login state and role.",
+      "A clean and responsive UI with TailwindCSS was designed to ensure that the application works seamlessly across desktop and mobile devices."
+    ],
     "libraries": [
       "typescript",
       "tailwindcss",
