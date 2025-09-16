@@ -175,7 +175,7 @@
     "project_id": 7,
     "project_name": "Individual Library Backend",
     "type": "Web App",
-    "project_image": "/library.jpg",
+    "project_image": "/library-backend.png",
     "tech_stack": ["Express", "MongoDB", "TypeScript"],
     "status": "In Progress",
     "sourceCode": "https://github.com/jding40/seth-library-backend.git",
