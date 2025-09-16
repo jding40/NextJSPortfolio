@@ -21,7 +21,7 @@ export default function ProjectCard({ project }) {
   };
 
   return (
-    <Card className="px-2 mb-4 project-card position-relative">
+    <Card className="px-2 mb-2 project-card position-relative">
       {!showDetails && (
         <div className="w-100 ratio ratio-16x9 mb-3 project-main">
           <Card.Img
@@ -60,13 +60,13 @@ export default function ProjectCard({ project }) {
             <strong>{project.project_name}</strong>
           </Card.Title>
           <Card.Text className="project-text lh-lg">
-            <i className="fs-6 mb-2 project-time">{project.time_period}</i>{" "}
+            <i className=" mb-2 project-time">{project.time_period}</i>
             <br />
             {project.tech_stack.map((tech) => (
               <SkillLabel key={tech} skillName={tech} />
             ))}
           </Card.Text>
-          <div>
+          <div className="mb-4">
             <Button
               variant="primary"
               className={`me-2 px-${showDetails ? 2.5 : 1}`}
