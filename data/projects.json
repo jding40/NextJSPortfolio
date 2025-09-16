@@ -159,7 +159,9 @@
     "sourceCode": "https://github.com/jding40/jding40-coinda-take-out.git",
     "time_period": "Aug 2025",
     "desc": [
-      "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\nOriginally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\nThis project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."
+      "This project is a full-stack food delivery management system designed to handle orders, menu items, and delivery workflows. \n\n",
+      "Originally based on a 2023 training project, I rebuilt the codebase with Spring Boot 3.x, MyBatis, MySQL and Redis replacing region-specific modules with North American industry-standard tools (for example, replace alibaba's fastjson with jackson, replace aliyun with azure ...). \n\n",
+      "This project highlights my ability to refactor legacy code, implement clean architectures, and deliver production-ready backend solutions."
     ],
     "libraries": [
       "jjwt",
