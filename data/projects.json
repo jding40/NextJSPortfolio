@@ -156,7 +156,7 @@
     "project_name": "Coinda Take Out",
     "type": "Web App",
     "project_image": "/coinda-take-out.png",
-    "tech_stack": ["Java", "Spring Boot", "Redis", "MySQL", "MyBatis"],
+    "tech_stack": ["Java", "Spring Boot", "Redis", "MySQL", "MyBatis", "Maven"],
     "status": "In Progress",
     "sourceCode": "https://github.com/jding40/jding40-coinda-take-out.git",
     "time_period": "Aug 2025",
