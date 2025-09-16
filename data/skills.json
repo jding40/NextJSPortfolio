@@ -37,13 +37,13 @@
   },
   {
     "skill_no": 30,
-    "skill_name": "React.js",
+    "skill_name": "React",
     "type": "Web Development",
     "logo_Url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/768px-React_Logo_SVG.svg.png"
   },
   {
     "skill_no": 40,
-    "skill_name": "Redux.js",
+    "skill_name": "Redux",
     "type": "Web Development",
     "logo_Url": "/redux.webp"
   },
@@ -67,7 +67,7 @@
   },
   {
     "skill_no": 80,
-    "skill_name": "Express.js",
+    "skill_name": "Express",
     "type": "Web Development",
     "logo_Url": "/express.png"
   },

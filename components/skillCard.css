@@ -6,3 +6,17 @@
 .card {
   height: 95%;
 }
+
+li {
+  list-style: none; /* 去掉默认圆点 */
+  position: relative;
+  padding-left: 1.5rem; /* 给自定义图标留空间 */
+}
+
+li::before {
+  content: "✓"; /*  ✓、➡、⭐、👉 ✔ */
+  position: absolute;
+  left: 0;
+  color: #ff9800; /* 自定义颜色 */
+  font-size: 1rem;
+}

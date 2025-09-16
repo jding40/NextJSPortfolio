@@ -8,7 +8,7 @@
       "EJS",
       "Tailwind",
       "JavaScript",
-      "Express.js",
+      "Express",
       "MongoDB",
       "Node.js",
       "PostgreSQL"
@@ -40,7 +40,7 @@
     "tech_stack": [
       "EJS",
       "JavaScript",
-      "Express.js",
+      "Express",
       "MongoDB",
       "Node.js",
       "Tailwind"
@@ -131,7 +131,7 @@
     "project_name": "Daily Ledger",
     "type": "Web App",
     "project_image": "/Ledger.webp",
-    "tech_stack": ["JavaScript", "React.js", "Redux.js", "Tailwind"],
+    "tech_stack": ["JavaScript", "React", "Redux", "Tailwind"],
     "status": "Completed",
     "deployment": "https://react-bill.vercel.app/",
     "sourceCode": "https://github.com/jding40/react_bill.git",
