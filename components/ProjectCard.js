@@ -39,11 +39,11 @@ export default function ProjectCard({ project }) {
             <Card.Text className="lh-lg project-main">
               <strong>Details: </strong>
               {project.introduction && <div>{project.introduction}</div>}
-              <div className="ps-3">
+              <ul className="ps-3">
                 {project.desc.map((ele, index) => (
                   <li key={index}>{ele}</li>
                 ))}
-              </div>
+              </ul>
               <strong>Libraries: </strong>
               <br />
               {project.libraries.map((lib, index) => (
