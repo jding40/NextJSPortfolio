@@ -36,7 +36,7 @@ export default function ProjectCard({ project }) {
       <Card.Body className="h-100 d-flex flex-column justify-content-between">
         <div className="mb-auto">
           {showDetails && (
-            <Card.Text className="lh-lg project-main">
+            <div className="lh-lg project-main">
               <strong>Details: </strong>
               {project.introduction && <div>{project.introduction}</div>}
               <ul className="ps-3">
@@ -49,7 +49,7 @@ export default function ProjectCard({ project }) {
               {project.libraries.map((lib, index) => (
                 <SkillLabel key={index} skillName={lib} />
               ))}
-            </Card.Text>
+            </div>
           )}
         </div>
         <div className="position-relative">
